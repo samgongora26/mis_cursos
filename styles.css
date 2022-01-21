@@ -1,0 +1,57 @@
+html {
+  padding: 20px;
+  color: #3d3d3d;
+}
+
+#bg{
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.card{
+  background-image: linear-gradient(60deg, #262d35 0%, #2f3a46 100%);
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  margin: auto;
+  border-bottom: solid 6px #52c964;
+}
+
+.inp_number{
+  margin: auto;
+  width: 60px;
+}
+
+.inp_name{
+  width: 215px;;
+}
+
+.btn-save{
+  border: solid 1px #52c964 !important;
+  border-radius: 5px;
+}
+
+.form-row{
+  position: relative;
+  column-count: 2;
+  column-gap: 65px;
+  
+  width: 100%;
+}
+
+.form-col{
+  background-color: transparent;
+  column-fill: balance;
+  color: #fff;
+  border-color: transparent;
+  border-bottom: solid 1px #52c964 !important;
+  padding: 5px;
+  margin: auto;
+}
+
+.red {
+  color: tomato;
+}
+.green {
+  color: #acffa1;
+}
